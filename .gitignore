@@ -1,0 +1,13 @@
+**/.venv
+**/__pycache__/
+**/node_modules/
+**/*.log
+**/*.binlog
+**/bin/
+**/obj/
+**/out/
+**/publish/
+**/.vs/
+**/.DS_Store
+**/Thumbs.db
+**/secret*.*

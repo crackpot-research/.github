@@ -1,0 +1,138 @@
+{
+  "files.exclude": {
+    "AGENTS.md": false,
+    "README.md": false,
+    "**/__pycache__": true,
+    "**/.editorconfig": true,
+    "**/.nuget": true,
+    "**/.vs": true,
+    "**/*.*proj": false,
+    "**/*.config": true,
+    "**/*.log": true,
+    "**/*.props": false,
+    "**/*.sln": true,
+    "**/*.user": true,
+    "**/*gitattributes*": true,
+    "**/*gitignore*": true,
+    "**/*gitlab*": true,
+    "**/*gitmodules*": false,
+    "**/appsettings.*.json": false,
+    "**/appsettings.json": false,
+    "**/bin/": true,
+    "**/CODEOWNERS": true,
+    "**/Debug/": true,
+    "**/LICENSE*": true,
+    "**/node_modules": true,
+    "**/obj/": true,
+    "**/out/": true,
+    "**/package-lock.json": true,
+    "**/packages/": true,
+    "**/pub/": true,
+    "**/pyenv": true,
+    "**/README.*": false,
+    "**/Release/": true,
+    "**/TODO.*": false,
+    "**/Win32": true,
+    "**/x64": true,
+    "**/x86": true
+  },
+  "workbench.colorTheme": "Atom Material Theme",
+  "workbench.iconTheme": "vs-seti",
+  "explorer.compactFolders": false,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontSize": 12.4,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "black-formatter.args": ["--line-length", "200"],
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "dotnet.preferCSharpExtension": true,
+  "[c]": {
+    "editor.wordBasedSuggestions": "off",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+    "editor.suggest.insertMode": "replace"
+  },
+  "[cpp]": {
+    "editor.wordBasedSuggestions": "off",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+    "editor.suggest.insertMode": "replace"
+  },
+  "C_Cpp.errorSquiggles": "disabled",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.autoIndent": "keep",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultColorDecorators": "auto",
+    "editor.quickSuggestions": {
+      "strings": true,
+      "other": true,
+      "comments": false
+    }
+  },
+  "yaml.validate": true,
+  "yaml.customTags": [
+    "!And",
+    "!Base64",
+    "!Cidr",
+    "!Condition",
+    "!Equals",
+    "!FindInMap",
+    "!GetAtt",
+    "!If",
+    "!ImportValue",
+    "!Include",
+    "!Join",
+    "!Not",
+    "!Or",
+    "!Ref",
+    "!Select",
+    "!Split",
+    "!Sub",
+    "!Transform"
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "chat.defaultMode": "agent",
+  "chat.agent.enabled": true,
+  "chat.agent.thinkingStyle": "collapsed",
+  "chat.editing.autoAcceptDelay": 0,
+  "chat.tools.edits.autoApprove": {
+    "**/*": true,
+    "**/.vscode/*": false,
+    "**/.claude/*": false
+  },
+  "chat.mcp.access": "all",
+  "chat.mcp.gallery.enabled": true,
+  "chat.mcp.autostart": "newAndOutdated",
+  "github.copilot.chat.githubMcpServer.enabled": true,
+  "chat.useClaudeMdFile": false
+}

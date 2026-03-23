@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "anthropic.claude-code",
+    "editorconfig.editorconfig",
+    "github.copilot-chat",
+    "github.vscode-github-actions",
+    "ms-python.black-formatter",
+    "ms-python.python",
+    "redhat.vscode-xml",
+    "redhat.vscode-yaml",
+    "tobiasalthoff.atom-material-theme",
+  ]
+}
